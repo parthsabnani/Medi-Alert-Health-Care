@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="-1"
+    android:layout_height="-1">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@ref/0x7f090155"
+        android:fitsSystemWindows="true"
+        android:layout_width="-1"
+        android:layout_height="-1">
+
+        <android.support.design.widget.AppBarLayout
+            android:theme="@ref/0x7f11000f"
+            android:id="@ref/0x7f090047"
+            android:fitsSystemWindows="true"
+            android:layout_width="-1"
+            android:layout_height="-2">
+
+            <android.support.design.widget.CollapsingToolbarLayout
+                android:id="@ref/0x7f09008d"
+                android:background="argb8(0x0)"
+                android:fitsSystemWindows="true"
+                android:clipToPadding="true"
+                android:layout_width="-1"
+                android:layout_height="dimension(76801)"
+                app:layout_scrollFlags="0x3"
+                app:titleEnabled="false">
+
+                <FrameLayout
+                    android:id="@ref/0x7f0902b7"
+                    android:fitsSystemWindows="true"
+                    android:layout_width="-1"
+                    android:layout_height="-2"
+                    app:layout_collapseMode="2"
+                    app:layout_collapseParallaxMultiplier="1060320064.000000">
+
+                    <include
+                        layout="@ref/0x7f0b0064" />
+                </FrameLayout>
+
+                <android.support.v7.widget.Toolbar
+                    android:gravity="0x30"
+                    android:id="@ref/0x7f09029f"
+                    android:background="argb8(0x0)"
+                    android:layout_width="-1"
+                    android:layout_height="@ref/0x7f0700ae"
+                    android:layout_marginTop="@ref/0x7f070141"
+                    android:minHeight="@attr/0x7f04000a"
+                    app:layout_collapseMode="1"
+                    app:layout_scrollFlags="0x15"
+                    app:popupTheme="@ref/0x7f1101b1">
+
+                    <TextView
+                        android:ellipsize="3"
+                        android:gravity="0x10"
+                        android:id="@ref/0x7f0902a1"
+                        android:layout_width="-2"
+                        android:layout_height="-2"
+                        android:layout_marginTop="@ref/0x7f070141"
+                        android:text="@ref/0x7f100037"
+                        android:maxLines="1"
+                        android:height="@ref/0x7f07004c"
+                        android:singleLine="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        style="@ref/0x7f1101b2" />
+                </android.support.v7.widget.Toolbar>
+
+                <android.support.design.widget.TabLayout
+                    android:gravity="0x50"
+                    android:layout_gravity="0x50"
+                    android:id="@ref/0x7f09025a"
+                    android:layout_width="-1"
+                    android:layout_height="@attr/0x7f04000a"
+                    android:layout_marginBottom="dimension(256)"
+                    app:tabIndicatorColor="rgb8(0xffffffff)"
+                    app:tabSelectedTextColor="rgb8(0xffffffff)"
+                    app:tabTextAppearance="@ref/0x7f11000d"
+                    app:tabTextColor="argb8(0x77ffffff)">
+
+                </android.support.design.widget.TabLayout>
+            </android.support.design.widget.CollapsingToolbarLayout>
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@ref/0x7f090093"
+            android:layout_width="-1"
+            android:layout_height="-1"
+            app:layout_behavior="@ref/0x7f100038" />
+
+
+        <LinearLayout
+            android:gravity="0x10"
+            android:layout_gravity="0x800055"
+            android:orientation="0"
+            android:id="@ref/0x7f0900e4"
+            android:visibility="2"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginRight="@ref/0x7f0700a2"
+            android:layout_marginBottom="@ref/0x7f0700a9"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:alpha="0.000000"
+            android:layout_marginEnd="@ref/0x7f0700a2"
+            android:layout_alignParentEnd="false">
+
+            <TextView
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:layout_marginRight="dimension(1537)"
+                android:text="@ref/0x7f1007fd"
+                style="@ref/0x7f110229" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@ref/0x7f0900e5"
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:src="@ref/0x7f08009b"
+                app:backgroundTint="@ref/0x7f060030"
+                app:elevation="@ref/0x7f0700a8" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="0x10"
+            android:layout_gravity="0x800055"
+            android:orientation="0"
+            android:id="@ref/0x7f0900de"
+            android:visibility="2"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginRight="@ref/0x7f0700a2"
+            android:layout_marginBottom="@ref/0x7f0700a9"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:alpha="0.000000"
+            android:layout_marginEnd="@ref/0x7f0700a2"
+            android:layout_alignParentEnd="false">
+
+            <TextView
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:layout_marginRight="dimension(1537)"
+                android:text="@ref/0x7f1007f7"
+                style="@ref/0x7f110229" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@ref/0x7f0900df"
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:src="@ref/0x7f0800c2"
+                app:backgroundTint="@ref/0x7f060030"
+                app:elevation="@ref/0x7f0700a8" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="0x10"
+            android:layout_gravity="0x800055"
+            android:orientation="0"
+            android:id="@ref/0x7f0900e0"
+            android:visibility="2"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginRight="@ref/0x7f0700a2"
+            android:layout_marginBottom="@ref/0x7f0700a9"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:alpha="0.000000"
+            android:layout_marginEnd="@ref/0x7f0700a2"
+            android:layout_alignParentEnd="false">
+
+            <TextView
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:layout_marginRight="dimension(1537)"
+                android:text="@ref/0x7f1007fa"
+                style="@ref/0x7f110229" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@ref/0x7f0900e1"
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:src="@ref/0x7f0800a2"
+                app:backgroundTint="@ref/0x7f060030"
+                app:elevation="@ref/0x7f0700a8" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="0x10"
+            android:layout_gravity="0x800055"
+            android:orientation="0"
+            android:id="@ref/0x7f0900e2"
+            android:visibility="2"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginRight="@ref/0x7f0700a2"
+            android:layout_marginBottom="@ref/0x7f0700a9"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:alpha="0.000000"
+            android:layout_marginEnd="@ref/0x7f0700a2"
+            android:layout_alignParentEnd="false">
+
+            <TextView
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:layout_marginRight="dimension(1537)"
+                android:text="@ref/0x7f1007f3"
+                style="@ref/0x7f110229" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@ref/0x7f0900e3"
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:src="@ref/0x7f0800d3"
+                app:backgroundTint="@ref/0x7f060030"
+                app:elevation="@ref/0x7f0700a8" />
+        </LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>
